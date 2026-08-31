@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Rivera — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><span class="dot"></span>alex.rivera</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="cmdk-hint" id="cmdkHint" aria-label="Open command palette"><span>Jump to</span><kbd>/</kbd></button>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <section class="hero" style="border-top:none;">
+    <div>
+      <div class="hero-role">backend &amp; infrastructure engineer</div>
+      <h1>I build systems that don't wake people up at 3am.</h1>
+      <p class="lede">Seven years designing APIs, data pipelines, and the boring reliability work underneath them — mostly in Go and Python, mostly for teams that ship often and can't afford downtime.</p>
+      <div class="hero-links">
+        <a href="#work" class="btn btn-primary">See recent work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="status">
+      <div class="status-head">
+        <span></span><span></span><span></span>
+        <span class="fname">status.log</span>
+      </div>
+      <div class="status-body">
+        <div class="status-row"><span>based in</span><b>Austin, TX</b></div>
+        <div class="status-row"><span>experience</span><b>7 years</b></div>
+        <div class="status-row"><span>focus</span><b>distributed systems</b></div>
+        <div class="status-row"><span>availability</span><b class="ok">open to work</b></div>
+        <div class="status-row"><span>response time</span><b>&lt; 24h</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <span class="count">4 projects</span>
+    </div>
+    <div class="filter-bar" id="filterBar">
+      <span class="filter-tag active" data-tag="all">All</span>
+      <span class="filter-tag" data-tag="go">Go</span>
+      <span class="filter-tag" data-tag="python">Python</span>
+      <span class="filter-tag" data-tag="typescript">TypeScript</span>
+    </div>
+
+    <div class="projects" id="projectsGrid">
+
+      <div class="file-card" data-tags="go">
+        <div class="file-tab"><span>ledger-sync/</span><span class="status-dot live"></span></div>
+        <div class="file-body">
+          <h3>Ledger Sync</h3>
+          <p>Event-sourced reconciliation engine that keeps three downstream billing systems consistent within 200ms, replacing a nightly batch job that used to fail silently.</p>
+          <div class="stack"><span data-tag="go">Go</span><span>Kafka</span><span>PostgreSQL</span></div>
+          <a class="proj-link" href="#">View case study</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="python">
+        <div class="file-tab"><span>routecast/</span><span class="status-dot live"></span></div>
+        <div class="file-body">
+          <h3>Routecast</h3>
+          <p>Realtime delivery-routing service handling 40k location updates/min, cut average route recalculation time from 4s to 260ms.</p>
+          <div class="stack"><span data-tag="python">Python</span><span>Redis</span><span>gRPC</span></div>
+          <a class="proj-link" href="#">View case study</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="typescript">
+        <div class="file-tab"><span>fieldkit/</span><span class="status-dot archived"></span></div>
+        <div class="file-body">
+          <h3>Fieldkit</h3>
+          <p>Offline-first data collection toolkit for research teams working without reliable connectivity, syncs opportunistically over Bluetooth mesh.</p>
+          <div class="stack"><span data-tag="typescript">TypeScript</span><span>SQLite</span><span>WebRTC</span></div>
+          <a class="proj-link" href="#">View repo</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="go">
+        <div class="file-tab"><span>quiethours/</span><span class="status-dot archived"></span></div>
+        <div class="file-body">
+          <h3>Quiethours</h3>
+          <p>Alert-routing layer that scored on-call pages by urgency, reduced overnight pages for one team by 61% in the first month.</p>
+          <div class="stack"><span data-tag="go">Go</span><span>PagerDuty API</span></div>
+          <a class="proj-link" href="#">View write-up</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <h2>Toolbelt</h2>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <ul>
+          <li>Go</li>
+          <li>Python</li>
+          <li>TypeScript</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Infrastructure</h4>
+        <ul>
+          <li>Kubernetes</li>
+          <li>Terraform</li>
+          <li>AWS</li>
+          <li>Kafka</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Data</h4>
+        <ul>
+          <li>PostgreSQL</li>
+          <li>Redis</li>
+          <li>ClickHouse</li>
+          <li>dbt</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head">
+      <h2>Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-period">2023 — Present</div>
+        <h3>Senior Backend Engineer <span>· Northwind Logistics</span></h3>
+        <p>Lead engineer on the routing platform team. Rebuilt the dispatch service around an event-driven architecture, and mentor two junior engineers.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-period">2020 — 2023</div>
+        <h3>Backend Engineer <span>· Halifax Data Co.</span></h3>
+        <p>Owned the ingestion pipeline processing 2TB/day of sensor data. Migrated the team off a monolith to independently deployable services.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-period">2018 — 2020</div>
+        <h3>Software Engineer <span>· Fenwick Labs</span></h3>
+        <p>First engineering hire. Built the initial API and infrastructure that the company's product still runs on today.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="contact-cta">
+      <h2>Building something that needs to hold up under load?</h2>
+    </div>
+    <div class="contact-row">
+      <div class="contact-links">
+        <button class="copy-email" id="copyEmail" data-email="alex@example.com">
+          alex@example.com
+          <span class="copied-tip">copied to clipboard</span>
+        </button>
+        <a href="#">github.com/alexrivera</a>
+        <a href="#">linkedin.com/in/alexrivera</a>
+        <a href="#">resume.pdf</a>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Alex Rivera. Built with plain HTML and CSS.</div>
+  </div>
+</footer>
+
+<div class="cmdk-backdrop" id="cmdkBackdrop">
+  <div class="cmdk-panel">
+    <div class="cmdk-input-row">
+      <span>&gt;</span>
+      <input type="text" id="cmdkInput" placeholder="Jump to a section or run a command..." autocomplete="off">
+      <kbd>esc</kbd>
+    </div>
+    <div class="cmdk-list" id="cmdkList"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
