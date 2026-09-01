@@ -74,14 +74,21 @@
   const cmdkHint = document.getElementById('cmdkHint');
 
   const commands = [
+    { label: 'Go to Home', hint: 'section', action: () => scrollToId('home') },
+    { label: 'Go to About', hint: 'section', action: () => scrollToId('about') },
+    { label: 'Go to Education', hint: 'section', action: () => scrollToId('education') },
     { label: 'Go to Work', hint: 'section', action: () => scrollToId('work') },
     { label: 'Go to Skills', hint: 'section', action: () => scrollToId('skills') },
-    { label: 'Go to Experience', hint: 'section', action: () => scrollToId('experience') },
+    { label: 'Go to Extracurricular', hint: 'section', action: () => scrollToId('extracurricular') },
+    // { label: 'Go to Experience', hint: 'section', action: () => scrollToId('experience') }, // re-enable once the Experience section is uncommented in index.html
     { label: 'Go to Contact', hint: 'section', action: () => scrollToId('contact') },
     { label: 'Copy email address', hint: 'action', action: () => copyBtn.click() },
-    { label: 'Open GitHub', hint: 'link', action: () => window.open('#', '_blank') },
-    { label: 'Open LinkedIn', hint: 'link', action: () => window.open('#', '_blank') },
-    { label: 'Download resume', hint: 'link', action: () => window.open('#', '_blank') },
+    { label: 'Open GitHub', hint: 'link', action: () => window.open('https://www.github.com/Shaurya-Singh6352/', '_blank') },
+    { label: 'Open LinkedIn', hint: 'link', action: () => window.open('https://www.linkedin.com/in/shauryasingg/', '_blank') },
+    { label: 'Open LeetCode', hint: 'link', action: () => window.open('https://leetcode.com/u/ShauryaSingg/', '_blank') },
+    { label: 'Open GeeksforGeeks', hint: 'link', action: () => window.open('https://www.geeksforgeeks.org/profile/shaurya5763', '_blank') },
+    { label: 'Open CodeChef', hint: 'link', action: () => window.open('https://www.codechef.com/users/shaurya5763', '_blank') },
+    { label: 'Download resume', hint: 'link', action: () => window.open('https://drive.google.com/file/d/1-i-cld-AVZwTTckPN6YnNipl-eeiUFf7/view', '_blank') },
   ];
 
   function scrollToId(id) {

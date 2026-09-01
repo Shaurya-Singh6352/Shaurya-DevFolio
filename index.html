@@ -1,221 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shaurya Singh — Software Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<title>Shaurya Singh — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-  <header>
-    <nav>
-      <div class="logo"><span class="dot"></span>shaurya.singh</div>
-      <ul class="nav-links">
-        <li><a href="#work">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="cmdk-hint" id="cmdkHint" aria-label="Open command palette"><span>Jump
-          to</span><kbd>/</kbd></button>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
-    </nav>
-  </header>
+<header>
+  <nav>
+    <div class="logo"><span class="dot"></span>shaurya.singh</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#extracurricular">Extracurricular</a></li>
+      <!-- <li><a href="#experience">Experience</a></li> -->
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="cmdk-hint" id="cmdkHint" aria-label="Open command palette"><span>Jump to</span><kbd>/</kbd></button>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
 
-  <div class="wrap">
+<div class="wrap">
 
-    <section class="hero" style="border-top:none;">
-      <div>
-        <div class="hero-role">backend &amp; infrastructure engineer</div>
-        <h1>I build systems that don't wake people up at 3am.</h1>
-        <p class="lede">Seven years designing APIs, data pipelines, and the boring reliability work underneath them —
-          mostly in Go and Python, mostly for teams that ship often and can't afford downtime.</p>
-        <div class="hero-links">
-          <a href="#work" class="btn btn-primary">See recent work</a>
-          <a href="#contact" class="btn btn-ghost">Get in touch</a>
-        </div>
+  <section class="hero" id="home" style="border-top:none;">
+    <div>
+      <div class="hero-role">mobile app developer &amp; software engineer</div>
+      <h1>I turn ideas into apps people actually finish using.</h1>
+      <p class="lede">Computer Science graduate from IIIT Bhagalpur building cross-platform mobile apps with Flutter and Firebase — from lost-and-found platforms to delivery logistics, with a habit of shipping things that hold up under real usage.</p>
+      <div class="hero-links">
+        <a href="#work" class="btn btn-primary">See recent work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
       </div>
+    </div>
+
+    <div class="status">
+      <div class="status-head">
+        <span></span><span></span><span></span>
+        <span class="fname">status.log</span>
+      </div>
+      <div class="status-body">
+        <div class="status-row"><span>based in</span><b>Noida, India</b></div>
+        <div class="status-row"><span>education</span><b>B.Tech CSE, Graduate</b></div>
+        <div class="status-row"><span>focus</span><b>Flutter &amp; Firebase</b></div>
+        <div class="status-row"><span>availability</span><b class="ok">open to full-time roles</b></div>
+        <div class="status-row"><span>response time</span><b>&lt; 24h</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p>I'm a Computer Science graduate from IIIT Bhagalpur who got hooked on mobile development after realizing how much friction a well-built app can remove from everyday problems — lost items, deliveries, discovering what to watch next. Most of what I build runs on Flutter and Firebase, with a habit of digging into system design and DSA on the side. I've solved 1000+ problems across LeetCode, GeeksforGeeks, and CodeChef, and spent my final year mentoring juniors through my college's Android Development Club.</p>
 
       <div class="status">
         <div class="status-head">
           <span></span><span></span><span></span>
-          <span class="fname">status.log</span>
+          <span class="fname">about.log</span>
         </div>
         <div class="status-body">
-          <div class="status-row"><span>based in</span><b>Austin, TX</b></div>
-          <div class="status-row"><span>experience</span><b>7 years</b></div>
-          <div class="status-row"><span>focus</span><b>distributed systems</b></div>
-          <div class="status-row"><span>availability</span><b class="ok">open to work</b></div>
-          <div class="status-row"><span>response time</span><b>&lt; 24h</b></div>
+          <div class="status-row"><span>education</span><b>IIIT Bhagalpur</b></div>
+          <div class="status-row"><span>currently learning</span><b>System design</b></div>
+          <div class="status-row"><span>outside of code</span><b>Competitive coding</b></div>
+          <div class="status-row"><span>mentoring</span><b class="ok">Android Dev Club</b></div>
         </div>
       </div>
-    </section>
-
-    <section id="work">
-      <div class="section-head">
-        <h2>Selected work</h2>
-        <span class="count">4 projects</span>
-      </div>
-      <div class="filter-bar" id="filterBar">
-        <span class="filter-tag active" data-tag="all">All</span>
-        <span class="filter-tag" data-tag="go">Go</span>
-        <span class="filter-tag" data-tag="python">Python</span>
-        <span class="filter-tag" data-tag="typescript">TypeScript</span>
-      </div>
-
-      <div class="projects" id="projectsGrid">
-
-        <div class="file-card" data-tags="go">
-          <div class="file-tab"><span>ledger-sync/</span><span class="status-dot live"></span></div>
-          <div class="file-body">
-            <h3>Ledger Sync</h3>
-            <p>Event-sourced reconciliation engine that keeps three downstream billing systems consistent within 200ms,
-              replacing a nightly batch job that used to fail silently.</p>
-            <div class="stack"><span data-tag="go">Go</span><span>Kafka</span><span>PostgreSQL</span></div>
-            <a class="proj-link" href="#">View case study</a>
-          </div>
-        </div>
-
-        <div class="file-card" data-tags="python">
-          <div class="file-tab"><span>routecast/</span><span class="status-dot live"></span></div>
-          <div class="file-body">
-            <h3>Routecast</h3>
-            <p>Realtime delivery-routing service handling 40k location updates/min, cut average route recalculation time
-              from 4s to 260ms.</p>
-            <div class="stack"><span data-tag="python">Python</span><span>Redis</span><span>gRPC</span></div>
-            <a class="proj-link" href="#">View case study</a>
-          </div>
-        </div>
-
-        <div class="file-card" data-tags="typescript">
-          <div class="file-tab"><span>fieldkit/</span><span class="status-dot archived"></span></div>
-          <div class="file-body">
-            <h3>Fieldkit</h3>
-            <p>Offline-first data collection toolkit for research teams working without reliable connectivity, syncs
-              opportunistically over Bluetooth mesh.</p>
-            <div class="stack"><span data-tag="typescript">TypeScript</span><span>SQLite</span><span>WebRTC</span></div>
-            <a class="proj-link" href="#">View repo</a>
-          </div>
-        </div>
-
-        <div class="file-card" data-tags="go">
-          <div class="file-tab"><span>quiethours/</span><span class="status-dot archived"></span></div>
-          <div class="file-body">
-            <h3>Quiethours</h3>
-            <p>Alert-routing layer that scored on-call pages by urgency, reduced overnight pages for one team by 61% in
-              the first month.</p>
-            <div class="stack"><span data-tag="go">Go</span><span>PagerDuty API</span></div>
-            <a class="proj-link" href="#">View write-up</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="skills">
-      <div class="section-head">
-        <h2>Toolbelt</h2>
-      </div>
-      <div class="skill-groups">
-        <div class="skill-group">
-          <h4>Languages</h4>
-          <ul>
-            <li>Go</li>
-            <li>Python</li>
-            <li>TypeScript</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h4>Infrastructure</h4>
-          <ul>
-            <li>Kubernetes</li>
-            <li>Terraform</li>
-            <li>AWS</li>
-            <li>Kafka</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h4>Data</h4>
-          <ul>
-            <li>PostgreSQL</li>
-            <li>Redis</li>
-            <li>ClickHouse</li>
-            <li>dbt</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience">
-      <div class="section-head">
-        <h2>Experience</h2>
-      </div>
-      <div class="timeline">
-        <div class="tl-item">
-          <div class="tl-period">2023 — Present</div>
-          <h3>Senior Backend Engineer <span>· Northwind Logistics</span></h3>
-          <p>Lead engineer on the routing platform team. Rebuilt the dispatch service around an event-driven
-            architecture, and mentor two junior engineers.</p>
-        </div>
-        <div class="tl-item">
-          <div class="tl-period">2020 — 2023</div>
-          <h3>Backend Engineer <span>· Halifax Data Co.</span></h3>
-          <p>Owned the ingestion pipeline processing 2TB/day of sensor data. Migrated the team off a monolith to
-            independently deployable services.</p>
-        </div>
-        <div class="tl-item">
-          <div class="tl-period">2018 — 2020</div>
-          <h3>Software Engineer <span>· Fenwick Labs</span></h3>
-          <p>First engineering hire. Built the initial API and infrastructure that the company's product still runs on
-            today.</p>
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-  <footer id="contact">
-    <div class="wrap">
-      <div class="contact-cta">
-        <h2>Building something that needs to hold up under load?</h2>
-      </div>
-      <div class="contact-row">
-        <div class="contact-links">
-          <button class="copy-email" id="copyEmail" data-email="shauryasingg.work@gmail.com">
-            shauryasingg.work@gmail.com
-            <span class="copied-tip">copied to clipboard</span>
-          </button>
-          <a href="https://github.com/Shaurya-Singh6352">github.com/Shaurya-Singh6352</a>
-          <a href="https://linkedin.com/in/shauryasingg">linkedin.com/in/shauryasingg</a>
-          <a href="https://drive.google.com/file/d/1-i-cld-AVZwTTckPN6YnNipl-eeiUFf7/view" target="_blank"
-            rel="noopener">resume.pdf</a>
-        </div>
-      </div>
-      <div class="copyright">© 2026 Shaurya Singh. Built with plain HTML and CSS.</div>
     </div>
-  </footer>
+  </section>
 
-  <div class="cmdk-backdrop" id="cmdkBackdrop">
-    <div class="cmdk-panel">
-      <div class="cmdk-input-row">
-        <span>&gt;</span>
-        <input type="text" id="cmdkInput" placeholder="Jump to a section or run a command..." autocomplete="off">
-        <kbd>esc</kbd>
-      </div>
-      <div class="cmdk-list" id="cmdkList"></div>
+  <section id="education">
+    <div class="section-head">
+      <h2>Education</h2>
     </div>
-  </div>
+    <div class="file-card" style="max-width: 640px;">
+      <div class="file-tab"><span>education.log</span><span class="status-dot live"></span></div>
+      <div class="file-body">
+        <h3>B.Tech, Computer Science &amp; Engineering</h3>
+        <p>Indian Institute of Information Technology Bhagalpur — Nov 2022 to July 2026. Completed all eight semesters with coursework spanning data structures, algorithms, OOP, database management systems, operating systems, and design patterns, alongside hands-on mobile development in Flutter and Firebase.</p>
+        <div class="stack"><span>B.Tech CSE</span><span>Graduated 2026</span><span>Bhagalpur, Bihar</span></div>
+      </div>
+    </div>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <span class="count">4 projects</span>
+    </div>
+    <div class="filter-bar" id="filterBar">
+      <span class="filter-tag active" data-tag="all">All</span>
+      <span class="filter-tag" data-tag="utility">Utility</span>
+      <span class="filter-tag" data-tag="logistics">Logistics</span>
+      <span class="filter-tag" data-tag="media">Media</span>
+      <span class="filter-tag" data-tag="entertainment">Entertainment</span>
+    </div>
+
+    <div class="projects" id="projectsGrid">
+
+      <div class="file-card" data-tags="utility">
+        <div class="file-tab"><span>traceit/</span><span class="status-dot live"></span></div>
+        <div class="file-body">
+          <h3>TraceIt</h3>
+          <p>Lost-and-found mobile platform that digitizes item tracking across campus, processing 100+ reports and cutting manual search time by 40%, with location tagging and image-based identification improving match accuracy by 50%.</p>
+          <div class="stack"><span data-tag="utility">Flutter</span><span>Firebase</span><span>Cloud Firestore</span></div>
+          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/lost_and_found" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="logistics">
+        <div class="file-tab"><span>swiftdrop/</span><span class="status-dot live"></span></div>
+        <div class="file-body">
+          <h3>SwiftDrop</h3>
+          <p>Delivery management app simulating logistics workflows for 50+ active orders, with Google Maps integration cutting delivery estimation errors by 30% and real-time Firestore streams handling 300+ concurrent state changes.</p>
+          <div class="stack"><span data-tag="logistics">Flutter</span><span>Google Maps API</span><span>Firebase</span></div>
+          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/quickelivery" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="media">
+        <div class="file-tab"><span>tuneflow/</span><span class="status-dot archived"></span></div>
+        <div class="file-body">
+          <h3>TuneFlow</h3>
+          <p>Cross-platform music player built for smooth playback across formats, with an optimized audio pipeline cutting media load time by 35% and background playback with notification controls for real multitasking use.</p>
+          <div class="stack"><span data-tag="media">Flutter</span><span>Audio Processing</span><span>Firebase</span></div>
+          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/music_player" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="file-card" data-tags="entertainment">
+        <div class="file-tab"><span>cinescope/</span><span class="status-dot archived"></span></div>
+        <div class="file-body">
+          <h3>CineScope</h3>
+          <p>Movie discovery app surfacing 100+ titles with real-time updates via external APIs, with response times under 2 seconds and advanced search/filter logic cutting user effort in content discovery by 40%.</p>
+          <div class="stack"><span data-tag="entertainment">Flutter</span><span>REST APIs</span><span>Firebase</span></div>
+          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/movie_app" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <h2>Toolbelt</h2>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <ul>
+          <li>C++</li>
+          <li>Dart</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Tools &amp; Frameworks</h4>
+        <ul>
+          <li>Flutter</li>
+          <li>Firebase</li>
+          <li>MongoDB &amp; MySQL</li>
+          <li>Git &amp; GitHub</li>
+          <li>Android Studio</li>
+          <li>Figma</li>
+          <li>Postman &amp; REST APIs</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Core Fundamentals</h4>
+        <ul>
+          <li>Data Structures &amp; Algorithms</li>
+          <li>Object-Oriented Programming</li>
+          <li>Database Management Systems</li>
+          <li>Operating Systems</li>
+          <li>Design Patterns</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="extracurricular">
+    <div class="section-head">
+      <h2>Extracurricular</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-period">2024 — 2026</div>
+        <h3>Active Member <span>· Android Development Club</span></h3>
+        <p>Mentored juniors in Flutter and Firebase, ran peer-learning sessions, and organized technical workshops. Streamlined a Flutter Bootcamp for 40+ students with a 90% satisfaction rate.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-period">Hackathons</div>
+        <h3>Smart India Hackathon <span>· Internal &amp; Pre-Finalist rounds</span></h3>
+        <p>Led a team to the top 5 of 25+ teams in the internal round, building a platform for entrepreneurs, and reached the pre-finalist stage proposing a mobile app solution to a real-world problem.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-period">Ongoing</div>
+        <h3>Competitive Programming <span>· LeetCode, GeeksforGeeks &amp; CodeChef</span></h3>
+        <p>Solved 1000+ problems across platforms, with a 2★ rating on CodeChef (best global rank 1117) and consistent practice on LeetCode and GeeksforGeeks. Profiles:
+          <a href="https://leetcode.com/u/ShauryaSingg/" target="_blank" rel="noopener">LeetCode</a>,
+          <a href="https://www.geeksforgeeks.org/profile/shaurya5763" target="_blank" rel="noopener">GeeksforGeeks</a>,
+          <a href="https://www.codechef.com/users/shaurya5763" target="_blank" rel="noopener">CodeChef</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  EXPERIENCE SECTION — commented out until first professional role.
+  To re-enable: uncomment this block, add its nav link back in the header
+  ( <li><a href="#experience">Experience</a></li> ), and uncomment the
+  matching "Go to Experience" command in script.js.
+
+  <section id="experience">
+    <div class="section-head">
+      <h2>Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-period">Month Year — Present</div>
+        <h3>Job Title <span>· Company Name</span></h3>
+        <p>What you owned, what you shipped, what changed because you were there.</p>
+      </div>
+    </div>
+  </section>
+  -->
+
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="contact-cta">
+      <h2>Have an app idea that needs building?</h2>
+    </div>
+    <div class="contact-row">
+      <div class="contact-links">
+        <button class="copy-email" id="copyEmail" data-email="shauryasingg.work@gmail.com">
+          shauryasingg.work@gmail.com
+          <span class="copied-tip">copied to clipboard</span>
+        </button>
+        <a href="https://www.github.com/Shaurya-Singh6352/" target="_blank" rel="noopener">github.com/Shaurya-Singh6352</a>
+        <a href="https://www.linkedin.com/in/shauryasingg/" target="_blank" rel="noopener">linkedin.com/in/shauryasingg</a>
+        <a href="https://leetcode.com/u/ShauryaSingg/" target="_blank" rel="noopener">LeetCode</a>
+        <a href="https://www.geeksforgeeks.org/profile/shaurya5763" target="_blank" rel="noopener">GeeksforGeeks</a>
+        <a href="https://www.codechef.com/users/shaurya5763" target="_blank" rel="noopener">CodeChef</a>
+        <a href="https://drive.google.com/file/d/1-i-cld-AVZwTTckPN6YnNipl-eeiUFf7/view" target="_blank" rel="noopener">resume.pdf</a>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Shaurya Singh. All rights reserved.</div>
+  </div>
+</footer>
+
+<div class="cmdk-backdrop" id="cmdkBackdrop">
+  <div class="cmdk-panel">
+    <div class="cmdk-input-row">
+      <span>&gt;</span>
+      <input type="text" id="cmdkInput" placeholder="Jump to a section or run a command..." autocomplete="off">
+      <kbd>esc</kbd>
+    </div>
+    <div class="cmdk-list" id="cmdkList"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
