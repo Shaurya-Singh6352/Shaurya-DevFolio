@@ -258,6 +258,7 @@
     border-bottom: 1px solid transparent;
   }
   .file-body a.proj-link:hover{ border-bottom-color: var(--amber); }
+  .proj-link-row{ display:flex; gap: 20px; }
 
   /* ---------- SKILLS ---------- */
   .skill-groups{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }

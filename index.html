@@ -1,260 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<title>Shaurya Singh — Software Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <title>Shaurya Singh — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <div class="logo"><span class="dot"></span>shaurya.singh</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#extracurricular">Extracurricular</a></li>
-      <!-- <li><a href="#experience">Experience</a></li> -->
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="cmdk-hint" id="cmdkHint" aria-label="Open command palette"><span>Jump to</span><kbd>/</kbd></button>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <div class="logo"><span class="dot"></span>shaurya.singh</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#extracurricular">Extracurricular</a></li>
+        <!-- <li><a href="#experience">Experience</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cmdk-hint" id="cmdkHint" aria-label="Open command palette"><span>Jump
+          to</span><kbd>/</kbd></button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
 
-<div class="wrap">
+  <div class="wrap">
 
-  <section class="hero" id="home" style="border-top:none;">
-    <div>
-      <div class="hero-role">mobile app developer &amp; software engineer</div>
-      <h1>I turn ideas into apps people actually finish using.</h1>
-      <p class="lede">Computer Science graduate from IIIT Bhagalpur building cross-platform mobile apps with Flutter and Firebase — from lost-and-found platforms to delivery logistics, with a habit of shipping things that hold up under real usage.</p>
-      <div class="hero-links">
-        <a href="#work" class="btn btn-primary">See recent work</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    <section class="hero" id="home" style="border-top:none;">
+      <div>
+        <div class="hero-role">mobile app developer &amp; software engineer</div>
+        <h1>I turn ideas into apps people actually finish using.</h1>
+        <p class="lede">Computer Science graduate from IIIT Bhagalpur building cross-platform mobile apps with Flutter
+          and Firebase — from lost-and-found platforms to delivery logistics, with a habit of shipping things that hold
+          up under real usage.</p>
+        <div class="hero-links">
+          <a href="#work" class="btn btn-primary">See recent work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
       </div>
-    </div>
-
-    <div class="status">
-      <div class="status-head">
-        <span></span><span></span><span></span>
-        <span class="fname">status.log</span>
-      </div>
-      <div class="status-body">
-        <div class="status-row"><span>based in</span><b>Noida, India</b></div>
-        <div class="status-row"><span>education</span><b>B.Tech CSE, Graduate</b></div>
-        <div class="status-row"><span>focus</span><b>Flutter &amp; Firebase</b></div>
-        <div class="status-row"><span>availability</span><b class="ok">open to full-time roles</b></div>
-        <div class="status-row"><span>relocation</span><b>open</b></div>
-        <div class="status-row"><span>response time</span><b>&lt; 24h</b></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="section-head">
-      <h2>About</h2>
-    </div>
-    <div class="about-grid">
-      <p>I'm a Computer Science graduate from IIIT Bhagalpur who got hooked on mobile development after realizing how much friction a well-built app can remove from everyday problems — lost items, deliveries, discovering what to watch next. Most of what I build runs on Flutter and Firebase, with a habit of digging into system design and DSA on the side. I've solved 1000+ problems across LeetCode, GeeksforGeeks, and CodeChef, and spent my final year mentoring juniors through my college's Android Development Club.</p>
 
       <div class="status">
         <div class="status-head">
           <span></span><span></span><span></span>
-          <span class="fname">about.log</span>
+          <span class="fname">status.log</span>
         </div>
         <div class="status-body">
-          <div class="status-row"><span>education</span><b>IIIT Bhagalpur</b></div>
-          <div class="status-row"><span>currently learning</span><b>System design</b></div>
-          <div class="status-row"><span>outside of code</span><b>Competitive coding</b></div>
-          <div class="status-row"><span>mentoring</span><b class="ok">Android Dev Club</b></div>
+          <div class="status-row"><span>based in</span><b>Noida, India</b></div>
+          <div class="status-row"><span>education</span><b>B.Tech CSE, Graduate</b></div>
+          <div class="status-row"><span>focus</span><b>Flutter &amp; Firebase</b></div>
+          <div class="status-row"><span>availability</span><b class="ok">open to full-time roles</b></div>
+          <div class="status-row"><span>relocation</span><b>open</b></div>
+          <div class="status-row"><span>response time</span><b>&lt; 24h</b></div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="education">
-    <div class="section-head">
-      <h2>Education</h2>
-    </div>
-    <div class="file-card" style="max-width: 640px;">
-      <div class="file-tab"><span>education.log</span><span class="status-dot live"></span></div>
-      <div class="file-body">
-        <h3>B.Tech, Computer Science &amp; Engineering</h3>
-        <p>Indian Institute of Information Technology Bhagalpur — Nov 2022 to July 2026. Completed all eight semesters with coursework spanning data structures, algorithms, OOP, database management systems, operating systems, and design patterns, alongside hands-on mobile development in Flutter and Firebase.</p>
-        <div class="stack"><span>B.Tech CSE</span><span>Graduated 2026</span><span>Bhagalpur, Bihar</span></div>
+    <section id="about">
+      <div class="section-head">
+        <h2>About</h2>
       </div>
-    </div>
-  </section>
+      <div class="about-grid">
+        <p>I'm a Computer Science graduate from IIIT Bhagalpur who started out building mobile apps with Flutter and
+          Firebase, then
+          moved into full-stack and backend engineering — most recently with ResumeLens, a resume analysis platform
+          built on
+          Spring Boot with JWT authentication, containerized with Docker, and deployed through a GitHub Actions CI/CD
+          pipeline. I
+          like understanding systems end to end: mobile UI, backend services, database design, and the cloud
+          infrastructure
+          underneath. I've solved 1000+ problems across LeetCode, GeeksforGeeks, and CodeChef, and mentored juniors
+          through my
+          college's Android Development Club.</p>
 
-  <section id="work">
-    <div class="section-head">
-      <h2>Selected work</h2>
-      <span class="count">4 projects</span>
-    </div>
-    <div class="filter-bar" id="filterBar">
-      <span class="filter-tag active" data-tag="all">All</span>
-      <span class="filter-tag" data-tag="utility">Utility</span>
-      <span class="filter-tag" data-tag="logistics">Logistics</span>
-      <span class="filter-tag" data-tag="media">Media</span>
-      <span class="filter-tag" data-tag="entertainment">Entertainment</span>
-    </div>
+        <div class="status">
+          <div class="status-head">
+            <span></span><span></span><span></span>
+            <span class="fname">about.log</span>
+          </div>
+          <div class="status-body">
+            <div class="status-row"><span>education</span><b>IIIT Bhagalpur</b></div>
+            <div class="status-row"><span>currently learning</span><b>System design</b></div>
+            <div class="status-row"><span>outside of code</span><b>Competitive coding</b></div>
+            <div class="status-row"><span>mentoring</span><b class="ok">Android Dev Club</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="projects" id="projectsGrid">
-
-      <div class="file-card" data-tags="utility">
-        <div class="file-tab"><span>traceit/</span><span class="status-dot live"></span></div>
+    <section id="education">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="file-card" style="max-width: 640px;">
+        <div class="file-tab"><span>education.log</span><span class="status-dot live"></span></div>
         <div class="file-body">
-          <h3>TraceIt</h3>
-          <p>Lost-and-found mobile platform that digitizes item tracking across campus, processing 100+ reports and cutting manual search time by 40%, with location tagging and image-based identification improving match accuracy by 50%.</p>
-          <div class="stack"><span data-tag="utility">Flutter</span><span>Firebase</span><span>Cloud Firestore</span><span>Postman</span></div>
-          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/lost_and_found" target="_blank" rel="noopener">View on GitHub</a>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p>Indian Institute of Information Technology Bhagalpur — Nov 2022 to July 2026. Completed all eight semesters
+            with coursework spanning data structures, algorithms, OOP, database management systems, operating systems,
+            and design patterns, alongside hands-on mobile development in Flutter and Firebase.</p>
+          <div class="stack"><span>B.Tech CSE</span><span>Graduated 2026</span><span>Bhagalpur, Bihar</span></div>
         </div>
       </div>
+    </section>
 
-      <div class="file-card" data-tags="logistics">
-        <div class="file-tab"><span>swiftdrop/</span><span class="status-dot live"></span></div>
-        <div class="file-body">
-          <h3>SwiftDrop</h3>
-          <p>Delivery management app simulating logistics workflows for 50+ concurrent orders, with real-time route optimization via Google Maps API cutting delivery time discrepancies by 30% and Firestore streams handling 300+ concurrent state changes reliably.</p>
-          <div class="stack"><span data-tag="logistics">Flutter</span><span>Google Maps API</span><span>Firebase</span><span>Postman</span></div>
-          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/quickelivery" target="_blank" rel="noopener">View on GitHub</a>
+    <section id="work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <span class="count">3 projects</span>
+      </div>
+      <div class="filter-bar" id="filterBar">
+        <span class="filter-tag active" data-tag="all">All</span>
+        <span class="filter-tag" data-tag="fullstack">Full Stack</span>
+        <span class="filter-tag" data-tag="utility">Utility</span>
+        <span class="filter-tag" data-tag="logistics">Logistics</span>
+      </div>
+
+      <div class="projects" id="projectsGrid">
+
+        <div class="file-card" data-tags="fullstack">
+          <div class="file-tab"><span>resumelens/</span><span class="status-dot live"></span></div>
+          <div class="file-body">
+            <h3>ResumeLens</h3>
+            <p>Full-stack resume analysis platform where users securely upload resumes and get structured feedback on
+              content, skills, sections, and formatting. Backend built with Spring Boot, Spring Security, JWT auth, and
+              Hibernate; resume parsing via Apache Tika feeds a rule-based scoring engine. Containerized with Docker and
+              deployed via GitHub Actions CI/CD — frontend on Vercel, backend on Render, MySQL on Aiven.</p>
+            <div class="stack"><span data-tag="fullstack">Java</span><span>Spring
+                Boot</span><span>MySQL</span><span>Docker</span><span>Postman</span></div>
+            <div class="proj-link-row">
+              <a class="proj-link" href="https://resume-analyzer-rho-beige.vercel.app/" target="_blank"
+                rel="noopener">Live Demo</a>
+              <a class="proj-link" href="https://github.com/Shaurya-Singh6352/resume-analyzer-web" target="_blank"
+                rel="noopener">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="file-card" data-tags="utility">
+          <div class="file-tab"><span>traceit/</span><span class="status-dot live"></span></div>
+          <div class="file-body">
+            <h3>TraceIt</h3>
+            <p>Lost-and-found mobile platform that digitizes item tracking across campus, processing 100+ reports and
+              cutting manual search time by 40%, with location tagging and image-based identification improving match
+              accuracy by 50%.</p>
+            <div class="stack"><span data-tag="utility">Flutter</span><span>Firebase</span><span>Cloud
+                Firestore</span><span>Postman</span></div>
+            <a class="proj-link" href="https://github.com/Shaurya-Singh6352/lost_and_found" target="_blank"
+              rel="noopener">View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="file-card" data-tags="logistics">
+          <div class="file-tab"><span>swiftdrop/</span><span class="status-dot live"></span></div>
+          <div class="file-body">
+            <h3>SwiftDrop</h3>
+            <p>Delivery management app simulating logistics workflows for 50+ active orders, with real-time route
+              optimization via Google Maps API cutting delivery time discrepancies by 30% and Firestore streams handling
+              300+ concurrent state changes reliably.</p>
+            <div class="stack"><span data-tag="logistics">Flutter</span><span>Google Maps
+                API</span><span>Firebase</span><span>Postman</span></div>
+            <a class="proj-link" href="https://github.com/Shaurya-Singh6352/quickelivery" target="_blank"
+              rel="noopener">View on GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-head">
+        <h2>Toolbelt</h2>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h4>Programming</h4>
+          <ul>
+            <li>C++</li>
+            <li>Dart</li>
+            <li>Java</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Full Stack Development</h4>
+          <ul>
+            <li>Flutter</li>
+            <li>Spring Boot</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Cloud &amp; DevOps</h4>
+          <ul>
+            <li>AWS (EC2, S3, VPC, IAM)</li>
+            <li>CI/CD</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Databases</h4>
+          <ul>
+            <li>MySQL</li>
+            <li>Firebase</li>
+            <li>DynamoDB</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools &amp; Technical</h4>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Linux</li>
+            <li>Agile / Scrum</li>
+            <li>SDLC</li>
+            <li>System Design</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Relevant Coursework</h4>
+          <ul>
+            <li>Data Structures &amp; Algorithms</li>
+            <li>Object-Oriented Programming</li>
+            <li>Database Management Systems</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>Software Engineering</li>
+            <li>Artificial Intelligence</li>
+          </ul>
         </div>
       </div>
+    </section>
 
-      <div class="file-card" data-tags="media">
-        <div class="file-tab"><span>tuneflow/</span><span class="status-dot archived"></span></div>
-        <div class="file-body">
-          <h3>TuneFlow</h3>
-          <p>Cross-platform music player built for smooth playback across formats, with an optimized audio pipeline cutting media load time by 35% and background playback with notification controls for real multitasking use.</p>
-          <div class="stack"><span data-tag="media">Flutter</span><span>Audio Processing</span><span>Firebase</span><span>Postman</span></div>
-          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/music_player" target="_blank" rel="noopener">View on GitHub</a>
+    <section id="extracurricular">
+      <div class="section-head">
+        <h2>Extracurricular</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-period">2024 — 2026</div>
+          <h3>Active Member <span>· Android Development Club</span></h3>
+          <p>Mentored juniors in Flutter and Firebase, ran peer-learning sessions, and organized technical workshops.
+            Streamlined a Flutter Bootcamp for 40+ students with a 90% satisfaction rate.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-period">Hackathons</div>
+          <h3>Smart India Hackathon <span>· Internal &amp; Pre-Finalist rounds</span></h3>
+          <p>Led a team to the top 5 of 25+ teams in the internal round, building a platform for entrepreneurs, and
+            reached the pre-finalist stage proposing a mobile app solution to a real-world problem.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-period">Ongoing</div>
+          <h3>Competitive Programming <span>· LeetCode, GeeksforGeeks &amp; CodeChef</span></h3>
+          <p>Solved 1000+ problems across platforms, with a 2★ rating on CodeChef (best global rank 1117) and consistent
+            practice on LeetCode and GeeksforGeeks. Profiles:
+            <a href="https://leetcode.com/u/ShauryaSingg/" target="_blank" rel="noopener">LeetCode</a>,
+            <a href="https://www.geeksforgeeks.org/profile/shaurya5763" target="_blank"
+              rel="noopener">GeeksforGeeks</a>,
+            <a href="https://www.codechef.com/users/shaurya5763" target="_blank" rel="noopener">CodeChef</a>.
+          </p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-period">Ongoing</div>
+          <h3>Microsoft Learn <span>· Level 3</span></h3>
+          <p>Reached Level 3 on <a href="https://learn.microsoft.com/en-us/users/shauryasingh-8790/" target="_blank"
+              rel="noopener">Microsoft Learn</a> with 2 trophies and 7 badges, continuing to explore new tools and
+            platforms outside the core coursework.</p>
         </div>
       </div>
+    </section>
 
-      <div class="file-card" data-tags="entertainment">
-        <div class="file-tab"><span>cinescope/</span><span class="status-dot archived"></span></div>
-        <div class="file-body">
-          <h3>CineScope</h3>
-          <p>Movie discovery app surfacing 100+ titles with real-time updates via external APIs, with response times under 2 seconds and advanced search/filter logic cutting user effort in content discovery by 40%.</p>
-          <div class="stack"><span data-tag="entertainment">Flutter</span><span>REST APIs</span><span>Firebase</span><span>Postman</span></div>
-          <a class="proj-link" href="https://github.com/Shaurya-Singh6352/movie_app" target="_blank" rel="noopener">View on GitHub</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="section-head">
-      <h2>Toolbelt</h2>
-    </div>
-    <div class="skill-groups">
-      <div class="skill-group">
-        <h4>Programming</h4>
-        <ul>
-          <li>C++</li>
-          <li>Dart</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>SQL</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h4>Full Stack Development</h4>
-        <ul>
-          <li>Flutter</li>
-          <li>RESTful APIs</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h4>Cloud &amp; DevOps</h4>
-        <ul>
-          <li>AWS (EC2, S3, VPC, IAM)</li>
-          <li>CI/CD</li>
-          <li>Docker</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h4>Databases</h4>
-        <ul>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>DynamoDB</li>
-          <li>Firebase</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h4>Tools &amp; Technical</h4>
-        <ul>
-          <li>Git &amp; GitHub</li>
-          <li>Linux</li>
-          <li>Agile / Scrum</li>
-          <li>SDLC</li>
-          <li>System Design</li>
-          <li>Postman</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <h4>Relevant Coursework</h4>
-        <ul>
-          <li>Data Structures &amp; Algorithms</li>
-          <li>Object-Oriented Programming</li>
-          <li>Database Management Systems</li>
-          <li>Operating Systems</li>
-          <li>Computer Networks</li>
-          <li>Software Engineering</li>
-          <li>Artificial Intelligence</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="extracurricular">
-    <div class="section-head">
-      <h2>Extracurricular</h2>
-    </div>
-    <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-period">2024 — 2026</div>
-        <h3>Active Member <span>· Android Development Club</span></h3>
-        <p>Mentored juniors in Flutter and Firebase, ran peer-learning sessions, and organized technical workshops. Streamlined a Flutter Bootcamp for 40+ students with a 90% satisfaction rate.</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-period">Hackathons</div>
-        <h3>Smart India Hackathon <span>· Internal &amp; Pre-Finalist rounds</span></h3>
-        <p>Led a team to the top 5 of 25+ teams in the internal round, building a platform for entrepreneurs, and reached the pre-finalist stage proposing a mobile app solution to a real-world problem.</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-period">Ongoing</div>
-        <h3>Competitive Programming <span>· LeetCode, GeeksforGeeks &amp; CodeChef</span></h3>
-        <p>Solved 1000+ problems across platforms, with a 2★ rating on CodeChef (best global rank 1117) and consistent practice on LeetCode and GeeksforGeeks. Profiles:
-          <a href="https://leetcode.com/u/ShauryaSingg/" target="_blank" rel="noopener">LeetCode</a>,
-          <a href="https://www.geeksforgeeks.org/profile/shaurya5763" target="_blank" rel="noopener">GeeksforGeeks</a>,
-          <a href="https://www.codechef.com/users/shaurya5763" target="_blank" rel="noopener">CodeChef</a>.
-        </p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-period">Ongoing</div>
-        <h3>Microsoft Learn <span>· Level 3</span></h3>
-        <p>Reached Level 3 on Microsoft Learn with 2 trophies and 7 badges, continuing to explore new tools and platforms outside the core coursework.</p>
-      </div>
-    </div>
-  </section>
-
-  <!--
+    <!--
   EXPERIENCE SECTION — commented out until first professional role.
   To re-enable: uncomment this block, add its nav link back in the header
   ( <li><a href="#experience">Experience</a></li> ), and uncomment the
@@ -274,43 +303,44 @@
   </section>
   -->
 
-</div>
+  </div>
 
-<footer id="contact">
-  <div class="wrap">
-    <div class="contact-cta">
-      <h2>Have an app idea that needs building?</h2>
-    </div>
-    <div class="contact-row">
-      <div class="contact-links">
-        <button class="copy-email" id="copyEmail" data-email="shauryasingg.work@gmail.com">
-          shauryasingg.work@gmail.com
-          <span class="copied-tip">copied to clipboard</span>
-        </button>
-        <a href="https://www.github.com/Shaurya-Singh6352/" target="_blank" rel="noopener">github.com/Shaurya-Singh6352</a>
-        <a href="https://www.linkedin.com/in/shauryasingg/" target="_blank" rel="noopener">linkedin.com/in/shauryasingg</a>
-        <a href="https://leetcode.com/u/ShauryaSingg/" target="_blank" rel="noopener">LeetCode</a>
-        <a href="https://www.geeksforgeeks.org/profile/shaurya5763" target="_blank" rel="noopener">GeeksforGeeks</a>
-        <a href="https://www.codechef.com/users/shaurya5763" target="_blank" rel="noopener">CodeChef</a>
-        <a href="https://drive.google.com/file/d/1-i-cld-AVZwTTckPN6YnNipl-eeiUFf7/view" target="_blank" rel="noopener">resume.pdf</a>
+  <footer id="contact">
+    <div class="wrap">
+      <div class="contact-cta">
+        <h2>Have an app idea that needs building?</h2>
       </div>
+      <div class="contact-row">
+        <div class="contact-links">
+          <button class="copy-email" id="copyEmail" data-email="shauryasingg.work@gmail.com">
+            shauryasingg.work@gmail.com
+            <span class="copied-tip">copied to clipboard</span>
+          </button>
+          <a href="https://www.github.com/Shaurya-Singh6352/" target="_blank"
+            rel="noopener">github.com/Shaurya-Singh6352</a>
+          <a href="https://www.linkedin.com/in/shauryasingg/" target="_blank"
+            rel="noopener">linkedin.com/in/shauryasingg</a>
+          <a href="https://drive.google.com/file/d/1HjU6ngOAxk-nFqHH8ipu3Rq9qPwtqHJP/view" target="_blank"
+            rel="noopener">resume.pdf</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Shaurya Singh. All rights reserved.</div>
     </div>
-    <div class="copyright">© 2026 Shaurya Singh. All rights reserved.</div>
-  </div>
-</footer>
+  </footer>
 
-<div class="cmdk-backdrop" id="cmdkBackdrop">
-  <div class="cmdk-panel">
-    <div class="cmdk-input-row">
-      <span>&gt;</span>
-      <input type="text" id="cmdkInput" placeholder="Jump to a section or run a command..." autocomplete="off">
-      <kbd>esc</kbd>
+  <div class="cmdk-backdrop" id="cmdkBackdrop">
+    <div class="cmdk-panel">
+      <div class="cmdk-input-row">
+        <span>&gt;</span>
+        <input type="text" id="cmdkInput" placeholder="Jump to a section or run a command..." autocomplete="off">
+        <kbd>esc</kbd>
+      </div>
+      <div class="cmdk-list" id="cmdkList"></div>
     </div>
-    <div class="cmdk-list" id="cmdkList"></div>
   </div>
-</div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
