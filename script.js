@@ -88,7 +88,7 @@
     { label: 'Open LeetCode', hint: 'link', action: () => window.open('https://leetcode.com/u/ShauryaSingg/', '_blank') },
     { label: 'Open GeeksforGeeks', hint: 'link', action: () => window.open('https://www.geeksforgeeks.org/profile/shaurya5763', '_blank') },
     { label: 'Open CodeChef', hint: 'link', action: () => window.open('https://www.codechef.com/users/shaurya5763', '_blank') },
-    { label: 'Download resume', hint: 'link', action: () => window.open('https://drive.google.com/file/d/1HjU6ngOAxk-nFqHH8ipu3Rq9qPwtqHJP/view', '_blank') },
+    { label: 'Download resume', hint: 'link', action: () => window.open('https://drive.google.com/file/d/1YMVT63cSJJ04ktPAby7lKd0CRgfaxCZw/view', '_blank') },
   ];
 
   function scrollToId(id) {
